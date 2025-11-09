@@ -33,6 +33,18 @@ const Intro = () => {
           I am a Front-End developer, Educator and a Tech enthusiast. I am
           always looking for new opportunities to learn and grow.💗
         </p>
+        <div className="flex gap-5 mt-5">
+          <a
+            target="_blank"
+            href="https://cdn.jsdelivr.net/gh/jobayerm10/Jobayer-Mahmud-Resume/Jobayer-Mahmud-Resume.pdf"
+            className=" px-4 py-2 rounded-md text-white font-semibold bg-linear-to-r from-pink-500 via-purple-500 to-indigo-500 hover:scale-105  transition-all duration-300"
+          >
+            Resume
+          </a>
+          <button className=" px-4 py-2 rounded-md text-white font-semibold bg-linear-to-r from-pink-500 via-purple-500 to-indigo-500 curosor-pointer hover:scale-105  transition-all duration-300">
+            Contact Me
+          </button>
+        </div>
       </div>
     </div>
   );
