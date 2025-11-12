@@ -4,12 +4,12 @@ const Intro = () => {
   return (
     <div className="w-full px-4 sm:px-8 md:px-12 lg:px-20">
       <div className="flex items-center flex-col-reverse lg:flex-row lg:items-center justify-between gap-10">
-        <div className="flex flex-col items-start text-left w-1/2">
-          <h1 className="text-[28px] sm:text-[36px] md:text-[50px] lg:text-[60px] font-bold font-fahim leading-tight mb-4">
+        <div className="text-center lg:text-left text-white w-full lg:w-1/2">
+          <h1 className="text-[28px] sm:text-[36px] md:text-[50px] lg:text-[60px] font-bold leading-tight mb-4">
             Hi I'm <span className="text-purple-600">JOBAYER MAHMUD</span>
           </h1>
 
-          <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold font-fahim mb-6 typewriter">
+          <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold mb-6 typewriter">
             <span className="">
               <Typewriter
                 words={["Frontend Developer."]}
@@ -20,7 +20,7 @@ const Intro = () => {
             </span>{" "}
           </h2>
 
-          <p className=" text-sm sm:text-base md:text-lg text-gray-400 mb-8 max-w-xl mx-auto lg:mx-0 font-munna">
+          <p className=" text-sm sm:text-base md:text-lg text-gray-400 mb-8 max-w-xl mx-auto lg:mx-0 ">
             A Educator and a Tech enthusiast. I am always looking for new
             opportunities to learn and grow.💗
           </p>

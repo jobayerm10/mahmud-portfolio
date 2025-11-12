@@ -1,3 +1,4 @@
+import AboutMe from "./components/AboutMe";
 import Intro from "./components/Intro";
 import Navbar from "./components/Navbar";
 
@@ -15,6 +16,7 @@ function App() {
         >
           <Intro></Intro>
         </section>
+        <AboutMe></AboutMe>
       </main>
 
       <footer></footer>
