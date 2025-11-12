@@ -1,6 +1,5 @@
 import Intro from "./components/Intro";
 import Navbar from "./components/Navbar";
-import ThemeSwitcher from "./components/ThemeSwitcher";
 
 function App() {
   return (
@@ -10,8 +9,12 @@ function App() {
       </header>
 
       <main>
-        <Intro></Intro>
-        <ThemeSwitcher></ThemeSwitcher>
+        <section
+          id="home"
+          className="min-h-screen flex items-center bg-linear-to-r from-[#4d3259] via-[#141e34] to-[#121c33] py-10 sm:py-16"
+        >
+          <Intro></Intro>
+        </section>
       </main>
 
       <footer></footer>
